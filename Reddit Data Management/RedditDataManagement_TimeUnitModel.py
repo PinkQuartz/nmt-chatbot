@@ -91,7 +91,7 @@ for timeUnit in timeframe:
         row_counter = 0
         paired_rows = 0
 
-        with open('/Users/aidanmoran/Desktop/Clive_Vocal/RedditData/{}/RC_{}'.format(timeunit.split('-')[0],timeunit), buffering=1000) as f:
+        with open('[PATH TO DATA FILES]/{}/RC_{}'.format(timeunit.split('-')[0],timeunit), buffering=1000) as f:
             for row in f:
                 row_counter += 1
                 row = json.loads(row)
