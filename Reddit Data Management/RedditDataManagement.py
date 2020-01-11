@@ -90,7 +90,7 @@ if __name__ == '__main__':
     row_counter = 0
     paired_rows = 0
 
-    with open('/Users/aidanmoran/Desktop/Clive_Vocal/RedditData/{}/RC_{}'.format(timeframe.split('-')[0],timeframe), buffering=1000) as f:
+    with open('[PATH TO FILES]/{}/RC_{}'.format(timeframe.split('-')[0],timeframe), buffering=1000) as f:
         for row in f:
             row_counter += 1
             row = json.loads(row)
