@@ -1,4 +1,4 @@
-nmt-chatbot
+nmt-chatbot (by https://github.com/daniel-kukiela, branched by PinkQuarts)
 ===================
 
 Table of Contents
@@ -257,6 +257,9 @@ You can download package [here](https://www.dropbox.com/s/2w4i77fancf4voc/nmt_ch
 
 Changelog
 ---------
+
+### PinkQuartz was here
+- added infestructure to deal with Reddit comment data 
 
 ### Master
 - New response scoring engine (work in progress, suggestions and code improvements are welcome)
