@@ -1,0 +1,12 @@
+This file contains the only additions to the software added by PinkQuartz.
+
+RedditDataManagement.py is scan one file in its timeframe variable (line 5) in the directoy specified on line 93
+RedditDataManagement_TimeUnitModel.py will scan all files in its timeframe list (line 5) in the directory specified on line 94
+
+Both files will turn the mess of Reddit data into SQL databases in the format of Parent > Reply
+
+DBRedditToTraining.py will turn these nifty new database files (put files in the list on line 4) into a to and from training set for tensorflow. Partents will be in from and replies (comments) will be in to. This will create a simulated conversation based on all the Reddit data you donwload.
+
+Use this files and you'll either get a chat-bot that's really funny or really racist. You're using Reddit to train an AI are there really any other outcomes?
+
+Data can be downloaded at https://files.pushshift.io/reddit/comments/
